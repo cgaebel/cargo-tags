@@ -1,7 +1,5 @@
 #![feature(phase)]
 extern crate cargo;
-extern crate docopt;
-#[phase(plugin)] extern crate docopt_macros;
 #[phase(plugin, link)] extern crate log;
 extern crate serialize;
 

@@ -3,8 +3,6 @@ name = "cargo-tags"
 version = "0.1.0"
 dependencies = [
  "cargo 0.1.0 (git+https://github.com/rust-lang/cargo)",
- "docopt 0.6.13 (git+https://github.com/docopt/docopt.rs)",
- "docopt_macros 0.6.13 (git+https://github.com/docopt/docopt.rs)",
 ]
 
 [[package]]
@@ -48,14 +46,6 @@ dependencies = [
 name = "docopt"
 version = "0.6.13"
 source = "git+https://github.com/docopt/docopt.rs#38cc4572bef4dc5cbcb7526500aa14d1898c426d"
-
-[[package]]
-name = "docopt_macros"
-version = "0.6.13"
-source = "git+https://github.com/docopt/docopt.rs#38cc4572bef4dc5cbcb7526500aa14d1898c426d"
-dependencies = [
- "docopt 0.6.13 (git+https://github.com/docopt/docopt.rs)",
-]
 
 [[package]]
 name = "flate2"
