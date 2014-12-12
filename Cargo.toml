@@ -1,0 +1,19 @@
+[package]
+name = "cargo-tags"
+version = "0.1.0"
+authors = [ "Clark Gaebel <cgaebel@mozilla.com>" ]
+license = "MIT"
+
+[dependencies.cargo]
+git = "https://github.com/rust-lang/cargo"
+
+[dependencies.docopt]
+git = "https://github.com/docopt/docopt.rs"
+
+[dependencies.docopt_macros]
+git = "https://github.com/docopt/docopt.rs"
+
+[[bin]]
+name = "cargo-tags"
+test = false
+doc = true
